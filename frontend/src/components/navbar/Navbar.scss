@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #013914;
   color: white;
-  transition:0.5s all ease;  
+  transition: 0.5s all ease;
   position: sticky;
   top: 0;
   &.active {
@@ -37,6 +37,35 @@
           text-decoration: underline;
         }
       }
+      .user {
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap: 10px;
+        cursor: pointer;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .options {
+          display: flex;
+          position: absolute;
+          background: #ffffff;
+          gap: 10px;
+          top: 35px;
+          right: -15px;
+          color: black;
+          flex-direction: column;
+          padding: 20px;
+          width: 150px;
+          border: 1px solid black;
+          border-radius: 10px;
+        }
+      }
+
       button {
         padding: 10px 20px;
         background-color: transparent;
@@ -46,9 +75,9 @@
         border: 1px solid white;
         cursor: pointer;
         transition: 0.1s all ease;
-        &.btn-chg{
-            border: 1px solid black;
-            color: black;
+        &.btn-chg {
+          border: 1px solid black;
+          color: black;
         }
         &:hover {
           background-color: #3eff7f;

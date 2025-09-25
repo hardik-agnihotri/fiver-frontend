@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.link{
+    text-decoration: none;
+    color: inherit;
+}
 :root{
     --width-size:1210px /* 1400px */
 }
