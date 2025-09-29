@@ -1,0 +1,17 @@
+.trusted-by {
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 760px;
+    justify-content: center;
+    color: #b7b7b7;
+      border-bottom: 1px solid transparent; /* define thickness */
+  border-image: linear-gradient(to right, transparent, gray, transparent) 1;
+    img {
+      height: 80px;
+    }
+  }
+}
