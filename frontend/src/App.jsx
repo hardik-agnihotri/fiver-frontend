@@ -7,6 +7,7 @@ import MyGigs from "./pages/myGigs/MyGigs";
 import Add from "./pages/add/Add";
 import Orders from "./pages/orders/Orders"
 import Messages from "./pages/messages/Messages"
+import GigCat from "./pages/gigCat/gigCat";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/add" element={<Add />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/messages" element={<Messages />} />
+        <Route path="/gig-cat" element={<GigCat />} />
       </Routes>
       <Footer />
     </Router>
