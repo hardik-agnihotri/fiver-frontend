@@ -107,6 +107,7 @@ const Navbar = () => {
                 Data Entry
               </Link>
             </div>
+            <hr />
           </>
         ))}
     </div>

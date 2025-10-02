@@ -1,0 +1,87 @@
+.gig-cat-pg {
+  display: flex;
+  justify-content: center;
+  .container {
+    padding: 40px 0;
+    width: var(--width-size);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .breadcrumb {
+      color: gray;
+    }
+    .details {
+      h1 {
+      }
+      p {
+        color: gray;
+      }
+    }
+    .f-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .bud-in {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+          color: gray;
+        }
+        input {
+          padding: 5px;
+          border: 1px solid lightgrey;
+          border-radius: 5px;
+          outline: none;
+
+          &::placeholder {
+            color: #999;
+          }
+        }
+        button {
+          padding: 5px 10px;
+          background-color: #1dbf73;
+          color: white;
+          border: none;
+          font-weight: 500;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+      .sort {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          height: 20px;
+          width: 20px;
+          cursor: pointer;
+        }
+        .drop {
+          display: flex;
+          position: absolute;
+          top: 23px;
+          right: 20px;
+          flex-direction: column;
+          background: white;
+          width: 130px;
+          padding: 20px;
+          gap: 10px;
+          border-radius: 5px;
+          border: 0.5px solid black;
+          margin-top: 2px;
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+  }
+}
