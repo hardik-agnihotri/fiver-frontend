@@ -5,10 +5,11 @@ import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
 import MyGigs from "./pages/myGigs/MyGigs";
 import Add from "./pages/add/Add";
-import Orders from "./pages/orders/Orders"
-import Messages from "./pages/messages/Messages"
+import Orders from "./pages/orders/Orders";
+import Messages from "./pages/messages/Messages";
 import Gigs from "./pages/gigs/Gigs";
 import Gig from "./pages/gig/Gig";
+import Message from "./pages/message/Message";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/add" element={<Add />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/messages" element={<Messages />} />
+        <Route path="/message" element={<Message />} />
         <Route path="/gig-cat" element={<Gigs />} />
         <Route path="/gig/:id" element={<Gig />} />
       </Routes>
